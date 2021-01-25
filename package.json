@@ -4,7 +4,7 @@
   "description": "SPLIT React Native Template!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhui134/react-native-template-SPLIT"
+    "url": "https://github.com/jhui134/react-native-template.git"
   },
   "license": "MIT",
   "main": "post-init.script.js",
