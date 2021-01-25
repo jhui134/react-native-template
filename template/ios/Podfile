@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'see' do
+target 'SPLIT' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'seeTests' do
+  target 'SPLITTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'see' do
   end
 end
 
-target 'see-tvOS' do
-  # Pods for see-tvOS
+target 'SPLIT-tvOS' do
+  # Pods for SPLIT-tvOS
 
-  target 'see-tvOSTests' do
+  target 'SPLIT-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

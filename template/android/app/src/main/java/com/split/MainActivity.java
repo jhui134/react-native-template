@@ -1,4 +1,4 @@
-package com.see;
+package com.split;
 
 import com.facebook.react.ReactActivity;
 import android.content.Intent;
@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "see";
+    return "SPLIT";
   }
 
   // for react-native-appearance
